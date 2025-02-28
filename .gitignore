@@ -1,16 +1,26 @@
 # Archivos de Python generados 
-*.pyc __pycache__/ 
+*.pyc 
+__pycache__/ 
 # Archivos de entorno virtual 
-venv/ .env 
+venv/ 
+.env 
 # Archivos de base de datos 
-*.sqlite3 *.psql *.mysql 
+*.sqlite3 
+*.psql 
+*.mysql 
 # Archivos de configuración específicos del IDE 
-.idea/ *.vscode/ *.sublime-project *.sublime-workspace 
+.idea/ 
+*.vscode/ 
+*.sublime-project 
+*.sublime-workspace 
 # Archivos de sistema operativo 
-.DS_Store Thumbs.db 
+.DS_Store 
+Thumbs.db 
 # Archivos de log 
 *.log 
 # Archivos de distribución 
-dist/ build/ *.egg-info/ 
+dist/ build/ 
+*.egg-info/ 
 # Archivos de caché de paquetes 
-__pycache__/ *.py[cod] 
+__pycache__/ 
+*.py[cod] 
